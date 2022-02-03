@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./tailwind/output.css" />
     <title>Document</title>
   </head>
-  <body>
+  <body class="bg-amber-300">
     <header>
       <nav class="flex h-24 justify-between bg-teal-300 p-10">
         <div class="text-2xl font-bold">Panda🐼</div>
@@ -20,17 +20,24 @@
       </nav>
     </header>
     <!--Hero Page-->
-    <!--Background-->
-    <div class="flex h-screen justify-center bg-amber-300">
+    <!--Background container-->
+    <div class="flex h-96 justify-center">
       <!--Sky-->
-      <div
-        class="flex-colitems-center relative mt-24 flex h-80 w-5/6 bg-cyan-300"
-      >
+      <div class="relative mt-24 flex h-80 w-5/6 items-center bg-cyan-300">
         <!--Hopper-->
         <div class="absolute bottom-0 mb-10 h-10 w-10 bg-amber-600"></div>
         <!--Grass-->
         <div class="absolute bottom-0 h-10 w-full bg-lime-600"></div>
       </div>
+    </div>
+    <!--button-->
+    <div class="flex justify-center">
+      <button
+        type="button"
+        class="mt-10 rounded-lg bg-red-600 px-5 py-2.5 text-center text-sm font-medium text-white"
+      >
+        PLAY!
+      </button>
     </div>
   </body>
 </html>
